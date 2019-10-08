@@ -124,6 +124,10 @@
 	background: $clr-white;
 	z-index: 1;
 
+	&.no-margin{
+		margin: 0px auto;
+	}
+
 	&.alligned-margin{
 		margin: 0 0 -130px;
 	}
