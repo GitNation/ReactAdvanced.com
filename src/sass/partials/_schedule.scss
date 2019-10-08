@@ -24,6 +24,10 @@
 	@include xs{
 		.schedule-list{
 			margin-bottom: -280px;
+
+			&.no-margin{
+				margin: 0px auto;
+			}
 		}
 	}
 }
