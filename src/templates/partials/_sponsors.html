@@ -18,7 +18,23 @@
 				</div>
 
 				{% for item in sponsors %}
-					<div class="sponsors-block {{item.mod}}">
+					<div class="sponsors-block
+            {% if (item.category == 'Platinum')  %}
+              sponsors-block_xl
+            {% elseif (item.category == 'Gold') %}
+              sponsors-block_lg
+            {% elseif (item.category == 'Silver') %}
+              sponsors-block_med
+            {% elseif (item.category == 'PartyPartner') %}
+              sponsors-block_sm
+            {% elseif (item.category == 'ProductionPartner') %}
+              sponsors-block_sm
+            {% elseif (item.category == 'MediaPartner') %}
+              sponsors-block_sm
+            {% elseif (item.category == 'Partner') %}
+              sponsors-block_xs
+            {% endif %}
+          ">
 						{% if item.title %}
 						<div class="sponsors-block__title">{{item.title}}</div>
 						{% endif %}
@@ -27,7 +43,7 @@
 							{% for sponsor in item.list %}
 								<li class="sponsors-block__item">
 									<a href="{{sponsor.link}}" target="_blank">
-										<img src="{{sponsor.img}}" alt="{{sponsor.alt}}" width="{{sponsor.width}}"/>
+										<img src="{{sponsor.img}}" alt="{{sponsor.alt}}" width="{{ sponsor.width if false else 200 }}"/>
 									</a>
 								</li>
 							{% endfor %}

@@ -1,3 +1,6 @@
+const conferenceTitle = 'React_Advanced_London';
+const eventYear = 'Y2020';
+
 const tagColors = {
   default: {
     tagBG: 'black',
@@ -13,6 +16,8 @@ const speakerAvatar = {
 };
 
 module.exports = {
+  conferenceTitle,
+  eventYear,
   tagColors,
   speakerAvatar,
 };
