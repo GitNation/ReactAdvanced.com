@@ -14,7 +14,7 @@
 
 .svg-arrow-r {
 	@extend %svg-common;
-	background-position: 1.8908059560387613% 3.503503503503503%;
+	background-position: 1.5411288769023308% 2.8536485935589075%;
 }
 
 .svg-arrow-r-dims {
@@ -24,7 +24,7 @@
 
 .svg-arrow_r {
 	@extend %svg-common;
-	background-position: 3.944773175542406% 6.972111553784861%;
+	background-position: 3.189792663476874% 5.684125050751116%;
 }
 
 .svg-arrow_r-dims {
@@ -34,7 +34,7 @@
 
 .svg-feature_1 {
 	@extend %svg-common;
-	background-position: 10.526315789473685% 10.465450930116951%;
+	background-position: 8.484848484848484% 8.452906743306356%;
 }
 
 .svg-feature_1-dims {
@@ -44,7 +44,7 @@
 
 .svg-feature_2 {
 	@extend %svg-common;
-	background-position: 18.546365914786968% 18.26883491148621%;
+	background-position: 14.94949494949495% 14.802768743224085%;
 }
 
 .svg-feature_2-dims {
@@ -54,7 +54,7 @@
 
 .svg-feature_3 {
 	@extend %svg-common;
-	background-position: 26.52519893899204% 25.19685039370079%;
+	background-position: 21.387353214156008% 20.338983050847457%;
 }
 
 .svg-feature_3-dims {
@@ -62,9 +62,19 @@
 	height: 32px;
 }
 
+.svg-logo-css-modules {
+	@extend %svg-common;
+	background-position: 27.87878787878788% 26.792255363683935%;
+}
+
+.svg-logo-css-modules-dims {
+	width: 32px;
+	height: 26.25px;
+}
+
 .svg-logo-graphql {
 	@extend %svg-common;
-	background-position: 34.32665041540222% 33.59580052493438%;
+	background-position: 34.135175294164895% 32.83898305084746%;
 }
 
 .svg-logo-graphql-dims {
@@ -74,7 +84,7 @@
 
 .svg-logo-jest {
 	@extend %svg-common;
-	background-position: 41.551591152248015% 41.99475065616798%;
+	background-position: 39.967062320499686% 39.61864406779661%;
 }
 
 .svg-logo-jest-dims {
@@ -82,9 +92,19 @@
 	height: 32px;
 }
 
+.svg-logo-mobx {
+	@extend %svg-common;
+	background-position: 46.26262626262626% 46.398305084745765%;
+}
+
+.svg-logo-mobx-dims {
+	width: 32px;
+	height: 32px;
+}
+
 .svg-logo-react {
 	@extend %svg-common;
-	background-position: 49.3734335839599% 49.9271895152902%;
+	background-position: 52.72727272727273% 52.779880561863905%;
 }
 
 .svg-logo-react-dims {
@@ -94,7 +114,7 @@
 
 .svg-logo-react-native {
 	@extend %svg-common;
-	background-position: 57.393483709273184% 57.46827543166216%;
+	background-position: 59.19191919191919% 58.877954411641014%;
 }
 
 .svg-logo-react-native-dims {
@@ -104,7 +124,7 @@
 
 .svg-logo-reason {
 	@extend %svg-common;
-	background-position: 65.41353383458646% 65.61679790026247%;
+	background-position: 65.65656565656566% 65.46610169491525%;
 }
 
 .svg-logo-reason-dims {
@@ -112,9 +132,19 @@
 	height: 32px;
 }
 
+.svg-logo-styled-components {
+	@extend %svg-common;
+	background-position: 72.12121212121212% 72.2457627118644%;
+}
+
+.svg-logo-styled-components-dims {
+	width: 32px;
+	height: 32px;
+}
+
 .svg-logo-typescript {
 	@extend %svg-common;
-	background-position: 73.43358395989975% 74.01574803149606%;
+	background-position: 78.58585858585859% 79.02542372881356%;
 }
 
 .svg-logo-typescript-dims {
@@ -124,7 +154,7 @@
 
 .svg-sclfb {
 	@extend %svg-common;
-	background-position: 76.47058823529412% 78.30423940149626%;
+	background-position: 80.80614203454894% 82.3170731707317%;
 }
 
 .svg-sclfb-dims {
@@ -134,7 +164,7 @@
 
 .svg-sclgh {
 	@extend %svg-common;
-	background-position: 80.73170731707317% 82.95165394402035%;
+	background-position: 84.38735177865613% 86.15702479338843%;
 }
 
 .svg-sclgh-dims {
@@ -144,7 +174,7 @@
 
 .svg-sclmed {
 	@extend %svg-common;
-	background-position: 84.62962517731349% 86.28428927680798%;
+	background-position: 87.51196452640009% 88.82113821138212%;
 }
 
 .svg-sclmed-dims {
@@ -154,7 +184,7 @@
 
 .svg-sclsl {
 	@extend %svg-common;
-	background-position: 88.29513608967714% 89.77358500028838%;
+	background-position: 90.48644263471559% 91.67362555917849%;
 }
 
 .svg-sclsl-dims {
@@ -164,7 +194,7 @@
 
 .svg-scltw {
 	@extend %svg-common;
-	background-position: 92.05845591770021% 93.01745635910224%;
+	background-position: 93.54737911100696% 94.3089430894309%;
 }
 
 .svg-scltw-dims {
@@ -174,7 +204,7 @@
 
 .svg-sclweb {
 	@extend %svg-common;
-	background-position: 95.90361445783132% 96.97732997481108%;
+	background-position: 96.67318982387475% 97.54098360655738%;
 }
 
 .svg-sclweb-dims {

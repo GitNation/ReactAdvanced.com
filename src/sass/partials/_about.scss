@@ -84,7 +84,7 @@
 		}
 	}
 
-	@include md{
+	@include lg{
 		&__right{
 			margin: 0 5% 0 0;
 		}
@@ -98,7 +98,7 @@
 		}
 	}
 
-	@include temp{
+	@include med{
 
 		&__left{
 			max-width: 100%;
@@ -200,7 +200,7 @@
 		margin: 0;
 		padding: 0;
 
-		@include md{
+		@include lg{
 			font-size: 20px;
 		}
 	}
@@ -265,7 +265,7 @@
 		text-align: center;
 	}
 
-	@include temp{
+	@include med{
 		display: flex;
 
 		&__item{
@@ -434,25 +434,40 @@
 			width: 28px;
 			height: 25px;
 		}
-		
+
 		&.graphql{
 			width: 22px;
 			height: 25px;
 		}
-		
+
 		&.typescript{
 			width: 20px;
 			height: 20px;
 		}
-		
+
 		&.reason{
 			width: 20px;
 			height: 20px;
 		}
-		
+
 		&.jest{
 			width: 22px;
 			height: 23px;
+		}
+
+		&.styled-components{
+			width: 28px;
+			height: 25px;
+		}
+
+		&.mobx {
+			width: 23px;
+			height: 23px;
+		}
+
+		&.css-modules{
+			width: 28px;
+			height: 25px;
 		}
 	}
 
@@ -462,7 +477,7 @@
 		margin: 0;
 	}
 
-	@include temp{
+	@include med{
 		margin: 10px -10px 0;
 		flex-wrap: wrap;
 

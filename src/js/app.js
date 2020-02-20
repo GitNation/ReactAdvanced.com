@@ -55,8 +55,8 @@ $(function() {
     speed: 200,
     fade: true,
     appendArrows: $('.pagination'),
-    prevArrow: '<button type="button" class="slick-prev"><svg class="captions-arrow" role="img" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#arrow-l"></use></svg></button>',
-    nextArrow: '<button type="button" class="slick-next"><svg class="captions-arrow" role="img" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v2#arrow-r"></use></svg></button>'
+    prevArrow: '<button type="button" class="slick-prev"><svg class="captions-arrow" role="img" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v4#arrow-l"></use></svg></button>',
+    nextArrow: '<button type="button" class="slick-next"><svg class="captions-arrow" role="img" aria-hidden="true"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/sprite-inline.svg?v4#arrow-r"></use></svg></button>'
   });
 
   /*---------------------------------------------------*/
@@ -70,7 +70,7 @@ $(function() {
   // Tabs
   $('.js-tabs__tab').on('click', function(e) {
     e.preventDefault();
-    $('.js-tabs__tab, .js-tabs__panel').removeClass('active');
+    $(this).closest('.container').find('.js-tabs__tab, .js-tabs__panel').removeClass('active');
     $(this).add('#' + $(this).attr('id').replace(/\s*tab\s*/, 'panel')).addClass('active');
     $(this).focus();
   });

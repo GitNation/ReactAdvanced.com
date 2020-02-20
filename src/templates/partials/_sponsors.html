@@ -4,26 +4,35 @@
 				<div class="section__head">
 					<div class="section__head-l">
 						<h3 class="section__title with-dots">
-							<span class="initial"><span>S</span></span>ponsors
+							<span class="initial"><span>P</span></span>revious sponsors
 						</h3>
 					</div>
 
 					<div class="section__head-r">
-<!--						<div class="section__desc">Would like to work together with the most notable React community supporters in Berlin?</div>-->
-						<div class="section__desc">Would you like to support a growing React community in London and improve the visibility of your tech/employer brand?</div>
-						<div class="section__desc"><a href="/sponsors">Check our partnership packages for 2019</a></div>
+<!--						<div class="section__desc">Would you like to support a growing React community in London and improve the visibility of your tech/employer brand?</div>-->
+<!--						<div class="section__desc"><a href="/sponsors">Check our partnership packages for 2019</a></div>-->
+
+						<div class="section__desc">Would like to work together with the most notable React community supporters?</div>
+						<div class="section__desc"><a href="/react-jobs">Have a loot at our partner job openings</a></div>
 					</div>
 				</div>
 
-				<div class="sponsors-list">
-					{% for item in sponsors %}
-					{{mixins.sponsors({
-						title: item.title,
-						mod: item.mod,
-						logos: item.logos,
-						last: item.last
-					})}}
-					{% endfor %}
-				</div>
+				{% for item in sponsors %}
+					<div class="sponsors-block {{item.mod}}">
+						{% if item.title %}
+						<div class="sponsors-block__title">{{item.title}}</div>
+						{% endif %}
+
+						<ul class="sponsors-block__list">
+							{% for sponsor in item.list %}
+								<li class="sponsors-block__item">
+									<a href="{{sponsor.link}}" target="_blank">
+										<img src="pic/sponsors/{{sponsor.img}}" alt="{{sponsor.name}}" width="{{sponsor.width}}"/>
+									</a>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+				{% endfor %}
 			</div>
 		</section>
