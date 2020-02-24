@@ -44,9 +44,9 @@ jobs:
             if [ $CIRCLE_BRANCH = "master" ]; then
               ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
             fi
-            if [ $CIRCLE_BRANCH = "develop" ]; then
+            # if [ $CIRCLE_BRANCH = "develop" ]; then
               # ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
-            fi
+            # fi
 
       - run:
           name: Message to Slack
