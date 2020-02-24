@@ -1,16 +1,12 @@
 {
-  "sourceType": "unambiguous",
   "presets": [
-    [
-      "@babel/preset-env",
-      {
-        "targets": {
-          "browsers": [
-            "last 2 versions"
-          ]
-        }
+    ["env", {
+      "targets": {
+        "browsers": ["last 2 versions"]
       }
-    ],
-    "@babel/preset-react"
-  ]
+    }]
+  ],
+  "parserOpts": {
+  	"plugins": ["transform-object-rest-spread", "transform-es2015-spread", "transform-es2015-destructuring"]
+  }
 }

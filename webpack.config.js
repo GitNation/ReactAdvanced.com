@@ -82,7 +82,7 @@ function createConfig(env) {
           options: {
             fix: true,
             cache: true,
-            configFile: path.resolve(__dirname, '.eslintrc.js')
+            ignorePattern: __dirname + '/src/js/lib/'
           }
         }, {
           test: /\.js$/,
@@ -90,16 +90,6 @@ function createConfig(env) {
           exclude: [
             path.resolve(__dirname, 'node_modules'),
           ],
-        },
-        {
-          test: /\.js$/,
-          loader: 'babel-loader',
-          exclude: [/node_modules\/(?!(swiper|dom7)\/).*/, /\.test\.jsx?$/],
-
-        },
-        {
-          test: /\.glsl$/,
-          loader: 'webpack-glsl-loader'
         }],
     },
   };
