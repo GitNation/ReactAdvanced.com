@@ -45,7 +45,7 @@ jobs:
               ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
             fi
             if [ $CIRCLE_BRANCH = "develop" ]; then
-              ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
+              # ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
             fi
 
       - run:
