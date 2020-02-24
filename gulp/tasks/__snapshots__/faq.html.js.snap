@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`/home/usul/FocusReactive/GitNation/ReactAdvanced.com/build/faq.html 1`] = `
+"<!DOCTYPE html>
+<html lang=\\"en\\">
+  <head>
+    <meta charset=\\"utf-8\\" />
+    <title>FAQ</title>
+    <meta name=\\"viewport\\" content=\\"width=device-width, initial-scale=1.0\\" />
+    <meta name=\\"keywords\\" content=\\"ReactJS, React, React Native, Reason, GraphQL framework, JavaScript, development, Facebook, workshops, conference\\" />
+    <meta name=\\"description\\" content=\\"React Advanced is London based community and a conference, addressing most complex and trickiest to solve topics. Engineers of any level are welcome, but be prepared for hardcore.\\" />
+    <meta http-equiv=\\"X-UA-Compatible\\" content=\\"IE=edge\\" />
+    <link rel=\\"stylesheet\\" href=\\"css/style.css?15102019\\" />
+    <meta property=\\"og:url\\" content=\\"https://reactadvanced.com\\" />
+    <meta property=\\"og:title\\" content=\\"React Advanced London Conference, Oct 21-23, 2020\\" />
+    <meta property=\\"og:description\\" content=\\"React Advanced is London based community and a conference, addressing most complex and trickiest to solve topics. Engineers of any level are welcome, but be prepared for hardcore.\\" />
+    <meta property=\\"og:image\\" content=\\"https://reactadvanced.com/pic/og-2020.png\\" />
+    <meta name=\\"twitter:card\\" content=\\"summary_large_image\\" />
+    <meta name=\\"twitter:site\\" content=\\"@reactadvanced\\" />
+    <link rel=\\"shortcut icon\\" href=\\"img/favicon.png\\" />
+  </head>
+  <body>
+    <div class=\\"wrapper\\">
+      <button class=\\"menu-toggle\\">
+        <span></span>
+        <span></span>
+      </button>
+      <header class=\\"header\\">
+        <div class=\\"container\\">
+          <div class=\\"header__logo\\">
+            <div class=\\"logo-mini ir\\">
+              <a href=\\"/\\" class=\\"logo-mini__link\\">React Advanced London</a>
+            </div>
+          </div>
+          <div class=\\"header__nav\\">
+            <nav class=\\"nav\\">
+              <li class=\\"nav__item\\"><a class=\\"nav__link\\" href=\\"https://ti.to/gitnation/react-advanced-conference-2020\\">Tickets</a></li>
+              <li class=\\"nav__item\\"><a class=\\"nav__link\\" href=\\"/\\">Conference page</a></li>
+            </nav>
+          </div>
+          <div class=\\"header__scls\\">
+            <ul class=\\"scls\\">
+              <li class=\\"scls__item\\">
+                <a href=\\"http://reactadvanced.com/slack\\" target=\\"_blank\\" class=\\"scls__link\\">
+                  <svg class=\\"scls__img sclsl\\" role=\\"img\\" aria-hidden=\\"true\\">
+                    <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclsl\\"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class=\\"scls__item\\">
+                <a href=\\"http://twitter.com/reactadvanced\\" target=\\"_blank\\" class=\\"scls__link\\">
+                  <svg class=\\"scls__img scltw\\" role=\\"img\\" aria-hidden=\\"true\\">
+                    <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#scltw\\"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class=\\"scls__item\\">
+                <a href=\\"https://youtube.com/c/ReactConferences\\" target=\\"_blank\\" class=\\"scls__link\\">
+                  <svg class=\\"scls__img sclyt\\" role=\\"img\\" aria-hidden=\\"true\\">
+                    <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclyt\\"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class=\\"scls__item\\">
+                <a href=\\"https://www.facebook.com/ReactAdvanced\\" target=\\"_blank\\" class=\\"scls__link\\">
+                  <svg class=\\"scls__img sclfb\\" role=\\"img\\" aria-hidden=\\"true\\">
+                    <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclfb\\"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class=\\"scls__item\\">
+                <a href=\\"https://medium.com/@ReactAdvanced\\" target=\\"_blank\\" class=\\"scls__link\\">
+                  <svg class=\\"scls__img sclmed\\" role=\\"img\\" aria-hidden=\\"true\\">
+                    <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclmed\\"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header><!-- .header -->
+      <main class=\\"content\\">
+        <section class=\\"section\\">
+          <div class=\\"container\\">
+            <div class=\\"section__head\\">
+              <div class=\\"section__head-l\\">
+                <h3 class=\\"section__title with-dots\\">
+                  <span class=\\"initial\\"><span>F</span></span>AQ </h3>
+              </div>
+              <div class=\\"section__head-r no-width\\">
+                <p class=\\"section__desc\\"> Our team is always striving to provide the best support to help you with any questions related to conference attendance and to make information more transparent and instantly accessible, we've started gathering most frequently asked questions on the page below.<br /><br /> If you can't find an answer to your question below - contact us via <a href=\\"mailto:hi@reactadvanced.com\\">hi@reactadvanced.com</a>. </p>
+              </div>
+            </div>
+            <ul class=\\"faq marged\\">
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">How can I change the name in my ticket?</div>
+                <div class=\\"faq__ansver\\">You can change the name on the ticket in your Eventbrite account, if you are the original buyer (your account have made the order). Log in to Eventbrite, open corresponding ticket and edit the attendee information.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Can you issue an invoice for my order?</div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, it is possible to pay via invoice. Please, send your company details and we will issue it for you: Company name, company address, VAT number.</p>
+                  <p>As soon as we receive the payment, we'll send you a promo-code to activate the tickets.</p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you have any discount for students?</div>
+                <div class=\\"faq__ansver\\">Yes, we can provide a student discount. Send us a scan or a photo of your relevant students ID.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you provide any group discounts?</div>
+                <div class=\\"faq__ansver\\">Yes, to get a group discount please choose \\"Team Ticket” on Eventbrite. In case your group is larger than 12 people, contacts us for extra discounts.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you provide any special tickets or discount for diversity groups?</div>
+                <div class=\\"faq__ansver\\">Yes, we do run a diversity scholarship program. Free diversity tickets are distributed via community channels and also via application form.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you provide refunds if my visa is not approved?</div>
+                <div class=\\"faq__ansver\\">Yes, we can make a refund if your visa for travel was not approved. Please send us the declining letter from the embassy or any other confirming documents.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you provide refunds if decided not to travel?</div>
+                <div class=\\"faq__ansver\\">No, we do not provide refunds in this case due to our policies.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Can you issue an invitation letter to apply for a visa?</div>
+                <div class=\\"faq__ansver\\">
+                  <p>Yes, we can issue an invitation letter to make the process of getting visa easier. Please, send us the following details according to your travel document:</p>
+                  <p>First name:<br /> Last name:<br /> Date of birth:<br /> Nationality:<br /> Passport number:<br /> Date of issue:<br /> Expiration date:<br /> </p>
+                </div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Can I join the conference as a volunteer?</div>
+                <div class=\\"faq__ansver\\">Yes, you can. Please, send us brief information about yourself: your experience in volunteering at conferences or any event organizing. Also please be sure that you’re going to be available on the day of the event and the day before it.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Is there a place to store my luggage during the event?</div>
+                <div class=\\"faq__ansver\\">There always is a wardrobe/cloakroom but neither we, nor the venue can’t be held accountable for attendee belongings. For big pieces of luggage, we suggest to leave them in a hotel luggage room or special luggage lockers on stations/airports.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you serve any food at the events?</div>
+                <div class=\\"faq__ansver\\">Yes, we serve lunch and coffee/pastries both at the conference and the workshops.</div>
+              </li>
+              <li class=\\"faq__item\\">
+                <svg class=\\"faq__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg#arrow-r\\"></use>
+                </svg>
+                <div class=\\"faq__question\\">Do you have vegetarian/vegan/gluten free options at the event and workshops?</div>
+                <div class=\\"faq__ansver\\">Yes, we have vegetarian, vegan and gluten-free food for lunch at the conference. As for workshops - please let us know in advance if you have any special meal preferences.</div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class=\\"section follow-us tall\\" id=\\"contacts\\">
+          <div class=\\"follow-us__decor-pipe\\"></div>
+          <div class=\\"follow-us__decor-fish\\"></div>
+          <div class=\\"follow-us__decor-sub\\"></div>
+          <div class=\\"container\\">
+            <div class=\\"section__head\\">
+              <div class=\\"section__head-l\\">
+                <h3 class=\\"section__title\\">
+                  <span class=\\"initial\\"><span>F</span></span>ollow us for updates </h3>
+                <ul class=\\"scls\\">
+                  <li class=\\"scls__item\\">
+                    <a href=\\"http://twitter.com/reactadvanced\\" target=\\"_blank\\" class=\\"scls__link\\">
+                      <svg class=\\"scls__img soctw\\" role=\\"img\\" aria-hidden=\\"true\\">
+                        <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#scltw\\"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class=\\"scls__item\\">
+                    <a href=\\"https://youtube.com/c/ReactConferences\\" target=\\"_blank\\" class=\\"scls__link\\">
+                      <svg class=\\"scls__img socyt\\" role=\\"img\\" aria-hidden=\\"true\\">
+                        <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclyt\\"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class=\\"scls__item\\">
+                    <a href=\\"https://www.facebook.com/ReactAdvanced\\" target=\\"_blank\\" class=\\"scls__link\\">
+                      <svg class=\\"scls__img socfb\\" role=\\"img\\" aria-hidden=\\"true\\">
+                        <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclfb\\"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class=\\"scls__item\\">
+                    <a href=\\"https://medium.com/@ReactAdvanced\\" target=\\"_blank\\" class=\\"scls__link\\">
+                      <svg class=\\"scls__img socmed\\" role=\\"img\\" aria-hidden=\\"true\\">
+                        <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#sclmed\\"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class=\\"section__head-r\\">
+                <form class=\\"subscribe-form\\" action=\\"https://reactadvanced.us20.list-manage.com/subscribe/post?u=60e415b507eefaffa4de40e02&amp;id=7ac7afeb1f\\" method=\\"post\\" id=\\"mc-embedded-subscribe-form\\" name=\\"mc-embedded-subscribe-form\\" target=\\"_blank\\" novalidate>
+                  <p class=\\"subscribe-form__title\\">Subscribe for conference email updates to hear about the latest news and special deals:</p>
+                  <div class=\\"subscribe-form__input-wrap\\">
+                    <input class=\\"subscribe-form__input\\" type=\\"email\\" name=\\"EMAIL\\" id=\\"mce-EMAIL\\" placeholder=\\"your@email\\" />
+                    <button class=\\"subscribe-form__submit basic-btn\\" type=\\"submit\\" name=\\"subscribe\\" id=\\"mc-embedded-subscribe\\">
+                      <div class=\\"basic-btn__inner\\">
+                        <div class=\\"basic-btn__arr-l\\">
+                          <svg class=\\"basic-btn__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                            <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#arrow_r\\"></use>
+                          </svg>
+                        </div>
+                        <div class=\\"basic-btn__text\\">Subscribe</div>
+                        <div class=\\"basic-btn__arr-r\\">
+                          <svg class=\\"basic-btn__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                            <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#arrow_r\\"></use>
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                  <div style=\\"position: absolute; left: -5000px;\\" aria-hidden=\\"true\\"><input type=\\"text\\" name=\\"b_60e415b507eefaffa4de40e02_7ac7afeb1f\\" tabindex=\\"-1\\" value=\\"\\" /></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class=\\"footer\\">
+        <div class=\\"container\\">
+          <div class=\\"f-logo\\">
+            <a href=\\"https://gitnation.org\\" target=\\"_blank\\">
+              <div class=\\"f-logo__desc\\">
+                <p class=\\"f-logo__by\\">Event by</p>
+                <p class=\\"f-logo__org\\">GitNation</p>
+              </div>
+            </a>
+          </div>
+          <div class=\\"nav\\">
+            <li class=\\"nav__item\\">
+              <a class=\\"nav__link js-scroll-to\\" href=\\"/sponsors\\">Sponsorship opportunities</a>
+            </li>
+            <li class=\\"nav__item\\">
+              <a class=\\"nav__link js-scroll-to\\" href=\\"/coc\\">Code of conduct</a>
+            </li>
+            <li class=\\"nav__item\\">
+              <a class=\\"nav__link js-scroll-to\\" href=\\"mailto:hi@reactadvanced.com\\">Email us!</a>
+            </li>
+            <!--				<li class=\\"nav__item\\">-->
+            <!--					<a class=\\"nav__link js-scroll-to\\" href=\\"/faq\\">FAQ</a>-->
+            <!--				</li>-->
+          </div>
+          <div class=\\"f-logo__dummy\\"></div>
+          <a class=\\"f-reserve basic-btn btn-green\\" href=\\"https://ti.to/gitnation/react-advanced-conference-2020\\">
+            <div class=\\"basic-btn__inner\\">
+              <div class=\\"basic-btn__arr-l\\">
+                <svg class=\\"basic-btn__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#arrow_r\\"></use>
+                </svg>
+              </div> Tickets <div class=\\"basic-btn__arr-r\\">
+                <svg class=\\"basic-btn__arrow\\" role=\\"img\\" aria-hidden=\\"true\\">
+                  <use xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" xlink:href=\\"img/sprite-inline.svg?v4#arrow_r\\"></use>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </footer><!-- .footer -->
+    </div>
+    <script type=\\"text/javascript\\">
+      var _gauges = _gauges || [];
+      (function()
+      {
+        var t = document.createElement('script');
+        t.type = 'text/javascript';
+        t.async = true;
+        t.id = 'gauges-tracker';
+        t.setAttribute('data-site-id', '5ca4d31d67e90a079f05add6');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+
+    </script>
+    <!-- Facebook Pixel Code -->
+    <script>
+      ! function(f, b, e, v, n, t, s)
+      {
+        if (f.fbq) return;
+        n = f.fbq = function()
+        {
+          n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+      }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '1374905195888955');
+      fbq('track', 'PageView');
+
+    </script>
+    <noscript><img height=\\"1\\" width=\\"1\\" style=\\"display:none\\" src=\\"https://www.facebook.com/tr?id=1374905195888955&ev=PageView&noscript=1\\" /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <!-- Twitter universal website tag code -->
+    <script>
+      ! function(e, t, n, s, u, a)
+      {
+        e.twq || (s = e.twq = function()
+        {
+          s.exe ? s.exe.apply(s, arguments) : s.queue.push(arguments);
+        }, s.version = '1.1', s.queue = [], u = t.createElement(n), u.async = !0, u.src = '//static.ads-twitter.com/uwt.js', a = t.getElementsByTagName(n)[0], a.parentNode.insertBefore(u, a))
+      }(window, document, 'script');
+      // Insert Twitter Pixel ID and Standard Event data below
+      twq('init', 'o2en6');
+      twq('track', 'PageView');
+
+    </script>
+    <!-- End Twitter universal website tag code -->
+    <script src=\\"https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js\\"></script>
+    <script src=\\"js/app.js\\"></script>
+  </body>
+</html>
+"
+`;
